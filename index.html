@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PillStamp – Never Miss a Dose</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8f9fc;
+      color: #1a1a2e;
+    }
+
+    header {
+      background: #5AB4F4;
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 24px;
+    }
+
+    .badge img {
+      height: 44px;
+      width: auto;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    section {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #1a1a2e;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .feature {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .feature span {
+      font-size: 28px;
+    }
+
+    .feature h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    .feature p {
+      font-size: 13px;
+      color: #4b5563;
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+
+    .privacy {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      border: 1px solid #e5e7eb;
+      line-height: 1.7;
+      font-size: 14px;
+      color: #4b5563;
+    }
+
+    .privacy h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .contact p {
+      font-size: 14px;
+      color: #4b5563;
+    }
+
+    .contact a {
+      color: #5AB4F4;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #9ca3af;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    @media (max-width: 500px) {
+      .features { grid-template-columns: 1fr; }
+      header h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PillStamp</h1>
+    <p>Your medications. Your schedule. Never miss a dose.</p>
+    <div class="badge">
+      <a href="https://apps.apple.com/app/pillstamp/id6761732845">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store"/>
+      </a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <span>💊</span>
+        <h3>Medication Tracking</h3>
+        <p>Manage all your medications, dosages and schedules in one place.</p>
+      </div>
+      <div class="feature">
+        <span>🔔</span>
+        <h3>Smart Reminders</h3>
+        <p>Get notified at the right time — daily, weekly, cycle-based or monthly.</p>
+      </div>
+      <div class="feature">
+        <span>✅</span>
+        <h3>Dose Confirmation</h3>
+        <p>Confirm or skip doses and keep a full history of your intake.</p>
+      </div>
+      <div class="feature">
+        <span>🔒</span>
+        <h3>100% Private</h3>
+        <p>All data stays on your device. No account, no cloud, no tracking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Privacy Policy</h2>
+    <div class="privacy">
+      <h3>Data Storage</h3>
+      <p>PillStamp stores all medication data exclusively on your device. No personal data is transmitted to external servers.</p>
+      <br/>
+      <h3>Advertising</h3>
+      <p>The free version of PillStamp displays banner ads provided by Google AdMob. AdMob may collect device identifiers to serve relevant ads. You can remove all ads permanently with a one-time in-app purchase.</p>
+      <br/>
+      <h3>Contact</h3>
+      <p>If you have any questions about privacy, please contact us at <a href="mailto:burierkol@gmail.com">burierkol@gmail.com</a>.</p>
+    </div>
+  </section>
+
+  <div class="contact">
+    <p>Questions or feedback? Reach us at <a href="mailto:burierkol@gmail.com">burierkol@gmail.com</a></p>
+  </div>
+
+  <footer>
+    © 2026 Burak Erkol · PillStamp
+  </footer>
+
+</body>
+</html>
